@@ -1,0 +1,83 @@
+/* ************************ */
+/*  HEADER */
+/* ************************ */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* Because we want header to be sticky later */
+  height: 9.6rem;
+  padding: 0 4.8rem;
+  position: relative;
+}
+
+.logo-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  font-size: 2rem;
+}
+
+.logotip {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 2.3rem !important;
+}
+
+.logotip:link,
+.logotip:visited {
+  color: #000;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.logo-svg {
+  fill: #555;
+  stroke: #555;
+}
+
+.header_nav_list {
+  display: flex;
+  font-size: 1.8rem;
+  font-weight: 400;
+  list-style: none;
+  gap: 2.3rem;
+  align-items: center;
+}
+
+.header_nav_link {
+  display: flex;
+  list-style: none;
+  gap: 2.3rem;
+  align-items: center;
+  font-size: 1.8rem;
+}
+
+.header_nav_list_link:link,
+.header_nav_list_link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.header_nav_list_link:hover,
+.header_nav_list_link:active {
+  color: #555;
+}
+
+/* SIGN UP BUTTON */
+.border-btn {
+  color: #fff !important;
+  padding: 1.5rem 3rem;
+  background-color: #000;
+  border-radius: 10rem;
+}
+
+.border-btn:hover,
+.border-btn:active {
+  background-color: #555;
+}
