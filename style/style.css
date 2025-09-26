@@ -81,3 +81,33 @@
 .border-btn:active {
   background-color: #555;
 }
+
+/* SECTION HERO */
+.section-hero-h1 {
+  margin-top: 3.6rem;
+  margin-bottom: 1rem;
+  color: #222222;
+  font-size: 7rem;
+  line-height: 1.15;
+  letter-spacing: 0.02;
+}
+
+.hero-description {
+  margin-top: 3.6rem;
+  margin-bottom: 2rem;
+  color: #222222;
+  font-size: 2rem;
+  line-height: 1.15;
+  letter-spacing: 0.02;
+  font-weight: 500;
+}
+
+.no-credit-card {
+  margin-top: 2rem;
+  columns: #222222;
+  font-size: 1.5rem;
+}
+
+.section-hero div {
+  align-items: center;
+}
