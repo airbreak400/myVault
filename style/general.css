@@ -58,7 +58,23 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.grid--center-v {
+  align-items: center;
+}
+
+/* SECTION HERO */
 .section-hero {
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+}
+
+/* SECTION FEATURE */
+.feature {
+  padding: 3.6rem 3.6rem;
+}
+
+/* Z-GRID SECTION */
+.z-grid {
   padding-top: 12rem;
   padding-bottom: 12rem;
 }

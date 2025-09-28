@@ -1,6 +1,7 @@
 /* ************************ */
 /*  HEADER */
 /* ************************ */
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -17,18 +18,19 @@
   align-items: center;
   justify-content: center;
   gap: 0.6rem;
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 
 .logotip {
+  font-family: Inter;
   text-decoration: none;
   font-weight: 600;
-  font-size: 2.3rem !important;
+  font-size: 2.3rem;
+  color: #222222;
 }
 
 .logotip:link,
 .logotip:visited {
-  color: #000;
   display: inline-block;
   text-decoration: none;
 }
@@ -40,7 +42,7 @@
 
 .header_nav_list {
   display: flex;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 400;
   list-style: none;
   gap: 2.3rem;
@@ -52,7 +54,7 @@
   list-style: none;
   gap: 2.3rem;
   align-items: center;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
 }
 
 .header_nav_list_link:link,
@@ -60,7 +62,7 @@
   display: inline-block;
   text-decoration: none;
   color: #000;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   transition: all 0.3s;
 }
 
@@ -85,29 +87,66 @@
 /* SECTION HERO */
 .section-hero-h1 {
   margin-top: 3.6rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.6rem;
   color: #222222;
-  font-size: 7rem;
+  font-size: 4.7rem;
   line-height: 1.15;
   letter-spacing: 0.02;
 }
 
 .hero-description {
-  margin-top: 3.6rem;
   margin-bottom: 2rem;
   color: #222222;
-  font-size: 2rem;
+  font-size: 1.6rem;
   line-height: 1.15;
   letter-spacing: 0.02;
   font-weight: 500;
 }
 
 .no-credit-card {
-  margin-top: 2rem;
+  margin-top: 1.6rem;
   columns: #222222;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
-.section-hero div {
-  align-items: center;
+.hero_nav_list_link:link,
+.hero_nav_list_link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  font-size: 1.6rem;
+  font-weight: 400;
+  transition: all 0.3s;
+}
+
+.hero_nav_list_link:hover,
+.hero_nav_list_link:active {
+  color: #555;
+}
+
+/* SECTION FEATURE */
+.feature-h2 {
+  color: #222222;
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 1.6rem;
+}
+
+.feature-description {
+  text-align: center;
+  font-size: 2rem;
+  color: #222222;
+  margin-bottom: 1.6rem;
+}
+
+.feature-title {
+  color: #222222;
+  font-size: 2.3rem;
+  margin-top: 3.6rem;
+  margin-bottom: 1.6rem;
+}
+
+.feature-text {
+  font-size: 1.6rem;
+  line-height: 1.2;
 }
