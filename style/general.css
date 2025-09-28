@@ -59,7 +59,13 @@ body {
 }
 
 .grid--center-v {
+  display: grid;
   align-items: center;
+}
+
+.grid--center-h {
+  display: grid;
+  justify-self: center;
 }
 
 /* SECTION HERO */
